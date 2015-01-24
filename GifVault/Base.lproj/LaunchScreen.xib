@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6724" systemVersion="14C107" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnchorWhite" translatesAutoresizingMaskIntoConstraints="NO" id="Wbk-vs-5Oc">
+                    <rect key="frame" x="135" y="149" width="211" height="181"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="181" id="szb-Pa-SnJ"/>
+                        <constraint firstAttribute="width" constant="211" id="ydd-Ku-vLq"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.69019607843137254" green="0.086274509803921567" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Wbk-vs-5Oc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OaY-um-wwx"/>
+                <constraint firstItem="Wbk-vs-5Oc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="149" id="aJV-4j-HyE"/>
+                <constraint firstAttribute="centerY" secondItem="Wbk-vs-5Oc" secondAttribute="centerY" constant="0.5" id="ntb-Rc-bd3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AnchorWhite" width="409" height="507"/>
+    </resources>
+</document>
